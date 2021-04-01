@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <header>
         <AppBar />
       </header>
-      <body>{children}</body>
+      <main>{children}</main>
       <footer>
         <Footer />
       </footer>
