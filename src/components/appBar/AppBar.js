@@ -1,8 +1,14 @@
-import React from 'react';
-import MainNavigation from '../navigation/MainNavigation';
+import React from "react";
+import MainNavigationLinks from "../navigation/MainNavigationLinks";
+
+// import MainNavigation from '../navigation/MainNavigation';
 
 const AppBar = () => {
-  return <div>{/* <MainNavigation /> */}</div>;
+  return (
+    <div>
+      <MainNavigationLinks />
+    </div>
+  );
 };
 
 export default AppBar;

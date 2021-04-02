@@ -1,11 +1,11 @@
-import React from 'react';
-import AppBar from '../components/appBar/AppBar';
+import React from "react";
+import AppBar from "../components/appBar/AppBar";
 
-import Footer from '../components/footer/Footer';
+import Footer from "../components/footer/Footer";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="wrapper">
       <header>
         <AppBar />
       </header>
