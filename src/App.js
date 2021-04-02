@@ -1,11 +1,13 @@
 import React from 'react';
-import Home from './components/home/Home';
+
+import MainNavigation from './components/navigation/MainNavigation';
 import Leyout from './layout/Layout';
 
 const App = () => {
   return (
     <Leyout>
-      <Home />
+      {<MainNavigation />}
+      <h2>app</h2>
     </Leyout>
   );
 };
