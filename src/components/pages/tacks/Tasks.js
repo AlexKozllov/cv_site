@@ -1,7 +1,12 @@
-import React from 'react';
+import React from "react";
+import TasksForm from "../../tasksForm/TasksForm";
 
 const Tasks = () => {
-  return <h2>Tasks</h2>;
+  return (
+    <div>
+      <TasksForm />
+    </div>
+  );
 };
 
 export default Tasks;
